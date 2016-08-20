@@ -1,6 +1,27 @@
 technically
 ===========
 
+[![npm version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![devDependency Status][david-dev-image]][david-dev-url]
+
+[![semantic-release][semrel-image]][semrel-url]
+[![Commitizen friendly][commitizen-image]][commitizen-url]
+
+[npm-image]: https://img.shields.io/npm/v/technically.svg
+[npm-url]: https://www.npmjs.com/package/technically
+[travis-image]: https://travis-ci.org/hakatashi/technically.svg?branch=master
+[travis-url]: https://travis-ci.org/hakatashi/technically
+[david-image]: https://david-dm.org/hakatashi/technically.svg
+[david-url]: https://david-dm.org/hakatashi/technically
+[david-dev-image]: https://david-dm.org/hakatashi/technically/dev-status.svg
+[david-dev-url]: https://david-dm.org/hakatashi/technically#info=devDependencies
+[semrel-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semrel-url]: https://github.com/semantic-release/semantic-release
+[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-url]: http://commitizen.github.io/cz-cli/
+
 > Get the “exact value” of the number
 
 This module works basically like Number.prototype.toString(), but more *technically*.
