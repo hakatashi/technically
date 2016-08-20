@@ -20,7 +20,7 @@ describe 'API' ->
     expect -> exact [1 2 3]
     .to.throw TypeError
 
-    expect -> exact new Promise ->
+    expect -> exact new Date!
     .to.throw TypeError
 
   It 'restores original big.DP value after conversion' ->

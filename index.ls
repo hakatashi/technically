@@ -36,6 +36,7 @@ module.exports = (number) ->
   # Handle denormalized numbers and calculate fraction
   if exponent is 0
     fraction = big mantissa
+    exponent++
   else
     fraction = big 2 .pow 52 .plus mantissa
 
