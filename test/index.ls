@@ -35,7 +35,7 @@ describe 'Conversion' ->
     expect exact 1e21 .to.equal '1000000000000000000000'
 
     expect exact Number.MAX_VALUE .to.have.length-of 309
-    expect exact Number.MAX_VALUE .to.equal big(2).pow(1024).to-fixed!
+    expect exact Number.MAX_VALUE .to.equal big(2).pow(1024).minus(big(2).pow(971)).to-fixed!
 
   It 'supports basic decimal fractions with actual precision' ->
     expect exact 0.125 .to.equal '0.125'
