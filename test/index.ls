@@ -23,6 +23,12 @@ describe 'API' ->
     expect -> exact new Promise ->
     .to.throw TypeError
 
+  It 'restores original big.DP value after conversion' ->
+    big.DP = 334
+    exact 334
+
+    expect big.DP .to.equal 334
+
 describe 'Conversion' ->
   It 'converts number to string' ->
     expect exact 42 .to.equal '42'
@@ -45,10 +51,8 @@ describe 'Conversion' ->
     expect exact 0.1 .to.equal '0.1000000000000000055511151231257827021181583404541015625'
 
   It 'supports denormalized values' ->
-    original-DP = big.DP
     big.DP = 1e6
     expected = big 2 .pow -1074 .to-fixed!
-    big.DP = original-DP
 
     expect exact Number.MIN_VALUE .to.equal expected
 
