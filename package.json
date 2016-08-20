@@ -11,7 +11,9 @@
     "mochify:phantom": "mochify \"test/*.ls\" --reporter spec --extension .ls --transform browserify-livescript",
     "test": "npm run mochify:node && npm run mochify:phantom && npm run readme-assert",
     "build": "lsc -co . .",
-    "readme-assert": "test \"$TRAVIS_NODE_VERSION\" != node || (npm run build && readme-assert -p)"
+    "readme-assert": "test \"$TRAVIS_NODE_VERSION\" != node || (npm run build && readme-assert -p)",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "release": "npm run build && npm run semantic-release"
   },
   "repository": {
     "type": "git",
@@ -38,7 +40,8 @@
     "mocha": "^3.0.2",
     "mochify": "^2.18.1",
     "mochify-istanbul": "^2.4.1",
-    "readme-assert": "^5.0.0"
+    "readme-assert": "^5.0.0",
+    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "big.js": "^3.1.3",
