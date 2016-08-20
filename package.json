@@ -1,7 +1,7 @@
 {
   "name": "exact-number",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get the exact value of the number",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/hakatashi/exact-number.git"
   },
-  "keywords": [],
+  "keywords": [
+    "number",
+    "toString",
+    "ieee754",
+    "IEEE 754",
+    "convert",
+    "floating point"
+  ],
   "author": "Koki Takahashi <hakatasiloving@gmail.com> (http://hakatashi.com/)",
   "license": "MIT",
   "bugs": {
