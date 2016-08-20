@@ -8,7 +8,7 @@ This module works basically like Number.prototype.toString(), but more *technica
 ![](http://imgs.xkcd.com/comics/technically.png)
 
 ```js
-const exact = require('technically');
+const technically = require('technically');
 
 technically(100); //=> '100'
 

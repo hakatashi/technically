@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Get the “exact value” of the number",
   "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "scripts": {
     "mochify:node": "mochify \"test/*.ls\" --reporter spec --extension .ls --transform browserify-livescript --node",
     "mochify:phantom": "mochify \"test/*.ls\" --reporter spec --extension .ls --transform browserify-livescript",
     "test": "npm run mochify:node && npm run mochify:phantom && npm run readme-assert",
-    "readme-assert": "test \"$TRAVIS_NODE_VERSION\" != node || readme-assert -p"
+    "build": "lsc -co . .",
+    "readme-assert": "test \"$TRAVIS_NODE_VERSION\" != node || (npm run build && readme-assert -p)"
   },
   "repository": {
     "type": "git",
