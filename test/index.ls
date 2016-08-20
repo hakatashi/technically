@@ -6,7 +6,24 @@ require! {
 
 It = global.it
 
-describe 'Basic Usage' ->
+describe 'API' ->
+  It 'converts Number to String' ->
+    expect exact 100 .to.be.instanceof String
+
+  It 'throw error when non-Numbers are given' ->
+    expect -> exact 'foo'
+    .to.throw TypeError
+
+    expect -> exact /foo/
+    .to.throw TypeError
+
+    expect -> exact [1 2 3]
+    .to.throw TypeError
+    
+    expect -> exact new Promise ->
+    .to.throw TypeError
+
+describe 'Conversion' ->
   It 'converts number to string' ->
     expect exact 42 .to.equal '42'
     expect exact 52149 .to.equal '52149'
