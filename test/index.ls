@@ -44,6 +44,14 @@ describe 'Conversion' ->
     # Bought from https://docs.python.org/3/tutorial/floatingpoint.html
     expect exact 0.1 .to.equal '0.1000000000000000055511151231257827021181583404541015625'
 
+  It 'supports denormalized values' ->
+    original-DP = big.DP
+    big.DP = 1e6
+    expected = big 2 .pow -1074 .to-fixed!
+    big.DP = original-DP
+
+    expect exact Number.MIN_VALUE .to.equal expected
+
   It 'supports minus zero' ->
     expect exact -0 .to.equal '-0'
 
