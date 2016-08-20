@@ -8,7 +8,7 @@ It = global.it
 
 describe 'API' ->
   It 'converts Number to String' ->
-    expect exact 100 .to.be.instanceof String
+    expect typeof exact 100 .to.equal 'string'
 
   It 'throw error when non-Numbers are given' ->
     expect -> exact 'foo'
@@ -19,7 +19,7 @@ describe 'API' ->
 
     expect -> exact [1 2 3]
     .to.throw TypeError
-    
+
     expect -> exact new Promise ->
     .to.throw TypeError
 
