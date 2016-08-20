@@ -1,7 +1,7 @@
 {
-  "name": "exact-number",
+  "name": "technically",
   "version": "1.0.0",
-  "description": "Get the exact value of the number",
+  "description": "Get the “exact value” of the number",
   "main": "index.js",
   "scripts": {
     "mochify:node": "mochify \"test/*.ls\" --reporter spec --extension .ls --transform browserify-livescript --node",
