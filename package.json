@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hakatashi/exact-number.git"
+    "url": "git+https://github.com/hakatashi/technically.git"
   },
   "keywords": [
     "number",
@@ -30,9 +30,9 @@
   "author": "Koki Takahashi <hakatasiloving@gmail.com> (http://hakatashi.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hakatashi/exact-number/issues"
+    "url": "https://github.com/hakatashi/technically/issues"
   },
-  "homepage": "https://github.com/hakatashi/exact-number#readme",
+  "homepage": "https://github.com/hakatashi/technically#readme",
   "devDependencies": {
     "browserify-livescript": "^0.2.3",
     "chai": "^3.5.0",
