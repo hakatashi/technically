@@ -19,7 +19,7 @@ technically
 
 This module works basically like Number.prototype.toString(), but more *technically*.
 
-![](http://imgs.xkcd.com/comics/technically.png)
+[![](http://imgs.xkcd.com/comics/technically.png)](http://xkcd.com/1475/)
 
 ```js
 const technically = require('technically');
