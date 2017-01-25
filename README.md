@@ -1,12 +1,11 @@
 technically
 ===========
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/technically.svg)](https://greenkeeper.io/)
-
 [![npm version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![devDependency Status][david-dev-image]][david-dev-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/technically.svg)](https://greenkeeper.io/)
 
 [npm-image]: https://img.shields.io/npm/v/technically.svg
 [npm-url]: https://www.npmjs.com/package/technically
