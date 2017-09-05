@@ -1,6 +1,6 @@
 {
   "name": "technically",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get the “exact value” of the number",
   "main": "index.js",
   "files": [
