@@ -44,7 +44,7 @@
     "semantic-release": "^12.2.4"
   },
   "dependencies": {
-    "big.js": "^5.0.2",
+    "big.js": "^5.1.2",
     "ieee754": "^1.1.6",
     "left-pad": "^1.1.1"
   }
