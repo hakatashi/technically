@@ -34,18 +34,18 @@
   },
   "homepage": "https://github.com/hakatashi/technically#readme",
   "devDependencies": {
-    "browserify-livescript": "^0.2.3",
-    "chai": "^4.0.1",
-    "livescript": "^1.5.0",
-    "mocha": "^5.0.0",
-    "mochify": "^4.0.0",
-    "mochify-istanbul": "^2.4.1",
-    "readme-assert": "^5.0.0",
-    "semantic-release": "^12.2.4"
+    "browserify-livescript": "^0.2.4",
+    "chai": "^4.3.4",
+    "livescript": "^1.6.0",
+    "mocha": "^9.0.0",
+    "mochify": "^8.0.0",
+    "mochify-istanbul": "^2.4.2",
+    "readme-assert": "^6.0.3",
+    "semantic-release": "^17.4.3"
   },
   "dependencies": {
-    "big.js": "^5.0.2",
-    "ieee754": "^1.1.6",
+    "big.js": "^6.1.1",
+    "ieee754": "^1.2.1",
     "left-pad": "^1.1.1"
   }
 }
