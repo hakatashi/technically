@@ -41,7 +41,7 @@
     "mochify": "^9.2.0",
     "mochify-istanbul": "^2.4.2",
     "readme-assert": "^6.0.3",
-    "semantic-release": "^17.4.3"
+    "semantic-release": "^21.0.2"
   },
   "dependencies": {
     "big.js": "^6.2.1",
