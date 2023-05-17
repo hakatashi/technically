@@ -2,7 +2,7 @@ technically
 ===========
 
 [![npm version][npm-image]][npm-url]
-[![test][actions-image][actions-url]
+[![test][actions-image]][actions-url]
 
 [npm-image]: https://img.shields.io/npm/v/technically.svg
 [npm-url]: https://www.npmjs.com/package/technically
