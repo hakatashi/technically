@@ -32,7 +32,7 @@ jobs:
       - name: setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 20
       - name: Install
         run: npm install
       - name: Release
@@ -41,4 +41,3 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm run release
-
