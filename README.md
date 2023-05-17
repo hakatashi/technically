@@ -2,19 +2,12 @@ technically
 ===========
 
 [![npm version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][david-image]][david-url]
-[![devDependency Status][david-dev-image]][david-dev-url]
-[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/technically.svg)](https://greenkeeper.io/)
+[![test][actions-image][actions-url]
 
 [npm-image]: https://img.shields.io/npm/v/technically.svg
 [npm-url]: https://www.npmjs.com/package/technically
-[travis-image]: https://travis-ci.org/hakatashi/technically.svg?branch=master
-[travis-url]: https://travis-ci.org/hakatashi/technically
-[david-image]: https://david-dm.org/hakatashi/technically.svg
-[david-url]: https://david-dm.org/hakatashi/technically
-[david-dev-image]: https://david-dm.org/hakatashi/technically/dev-status.svg
-[david-dev-url]: https://david-dm.org/hakatashi/technically#info=devDependencies
+[actions-image]: https://github.com/hakatashi/technically/actions/workflows/test.yml/badge.svg
+[actions-url]: https://github.com/hakatashi/technically/actions/workflows/test.yml
 
 > Get the “exact value” of the number
 
