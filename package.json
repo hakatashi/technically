@@ -35,7 +35,7 @@
   "homepage": "https://github.com/hakatashi/technically#readme",
   "devDependencies": {
     "browserify-livescript": "^0.2.4",
-    "chai": "^4.3.4",
+    "chai": "^5.0.0",
     "livescript": "^1.6.0",
     "mocha": "^10.2.0",
     "mochify": "^9.2.0",
