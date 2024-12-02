@@ -37,7 +37,7 @@
     "browserify-livescript": "^0.2.4",
     "chai": "^4.3.4",
     "livescript": "^1.6.0",
-    "mocha": "^10.2.0",
+    "mocha": "^11.0.1",
     "mochify": "^9.2.0",
     "mochify-istanbul": "^2.4.2",
     "readme-assert": "^6.0.3",
